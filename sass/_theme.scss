@@ -1,0 +1,82 @@
+$light: #fff;
+$grey: #808080;
+$dark: #000;
+$h1: 1.5rem;
+$h2: 1.3rem;
+$h3: 0.7rem;
+$h4: 0.6rem;
+.h1 {
+  font-size: $h1;
+
+  &-light {
+    color: $light;
+    font-size: $h1;
+  }
+
+  &-grey {
+    color: $grey;
+    font-size: $h1;
+  }
+
+  &-dark {
+    color: $dark;
+    font-size: $h1;
+  }
+}
+
+.h2 {
+  font-size: $h2;
+
+  &-light {
+    color: $light;
+    font-size: $h2;
+  }
+
+  &-grey {
+    color: $grey;
+    font-size: $h2;
+  }
+
+  &-dark {
+    color: $dark;
+    font-size: $h2;
+  }
+}
+
+.h3 {
+  font-size: $h3;
+
+  &-light {
+    color: $light;
+    font-size: $h3;
+  }
+
+  &-grey {
+    color: $grey;
+    font-size: $h3;
+  }
+
+  &-dark {
+    color: $dark;
+    font-size: $h3;
+  }
+}
+
+.h4 {
+  font-size: $h4;
+
+  &-light {
+    color: $light;
+    font-size: $h4;
+  }
+
+  &-grey {
+    color: $grey;
+    font-size: $h4;
+  }
+
+  &-dark {
+    color: $dark;
+    font-size: $h4;
+  }
+}

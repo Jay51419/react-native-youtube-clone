@@ -1,0 +1,45 @@
+@import 'theme';
+@import 'utilities';
+
+.container {
+  height: 300px;
+  width: 100%;
+  background-color: $light;
+}
+.thumbnail {
+  width: 100%;
+  height: 200px;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+.video-title {
+  flex: 1;
+  background-color: $light;
+}
+.channel-info {
+  font-size: 0.8rem;
+  color: $grey;
+}
+.option {
+  padding-right: 0.5rem;
+}
+.time {
+  background-color: black;
+  position: absolute;
+  margin: 10px;
+  top: 160px;
+  left: 88%;
+  &-text {
+    color: white;
+    padding: 1px 2px;
+    font-size: 0.8rem;
+  }
+}
+.title {
+  font-weight: bold;
+}

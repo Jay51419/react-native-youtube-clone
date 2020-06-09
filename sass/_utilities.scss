@@ -1,0 +1,46 @@
+$spaceamount: (0, 1, 2, 3, 5);
+
+@each $space in $spaceamount {
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+  .mt-#{$space} {
+    margin-top: #{$space}rem;
+  }
+  .mr-#{$space} {
+    margin-right: #{$space}rem;
+  }
+  .ml-#{$space} {
+    margin-left: #{$space}rem;
+  }
+  .mb-#{$space} {
+    margin-bottom: #{$space}rem;
+  }
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+  .pt-#{$space} {
+    padding-top: #{$space}rem;
+  }
+  .pr-#{$space} {
+    padding-right: #{$space}rem;
+  }
+  .pl-#{$space} {
+    padding-left: #{$space}rem;
+  }
+  .pb-#{$space} {
+    padding-bottom: #{$space}rem;
+  }
+}
+.row {
+  flex-direction: row;
+}
+.middle {
+  justify-content: center;
+}
+.center {
+  align-items: center;
+}
+.even {
+  justify-content: space-evenly;
+}

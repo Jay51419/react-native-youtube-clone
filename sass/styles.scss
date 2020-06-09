@@ -1,0 +1,13 @@
+@import 'theme';
+@import 'utilities';
+
+.container {
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 48px;
+  background-color: $grey;
+}
+.navText {
+  padding: 1rem;
+  font-size: $h3;
+}

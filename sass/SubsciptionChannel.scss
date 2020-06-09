@@ -1,0 +1,14 @@
+@import 'theme';
+@import 'utilities';
+
+.user-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: greenyellow;
+}
+.channel-info {
+  font-size: 0.8rem;
+  color: $grey;
+  margin-top: 0.5rem;
+}

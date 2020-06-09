@@ -1,0 +1,30 @@
+@import 'theme';
+@import 'utilities';
+
+.container {
+  flex: 1;
+  background-color: #2a2b2d;
+}
+
+.header {
+  height: 48;
+  justify-content: center;
+}
+
+.body {
+  flex: 1;
+}
+.text {
+  justify-content: center;
+  align-items: center;
+}
+.p {
+  font-size: 0.9rem;
+  color: white;
+}
+.btn {
+  background-color: lightskyblue;
+  height: 50px;
+  width: 150px;
+  border-radius: 0.5rem;
+}

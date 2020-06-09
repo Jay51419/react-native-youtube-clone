@@ -1,0 +1,30 @@
+@import 'theme';
+@import 'utilities';
+
+.container {
+  height: 60px;
+  background-color: $light;
+}
+.icon {
+  width: 20%;
+  height: 100%;
+}
+.text {
+  width: 65%;
+  height: 100%;
+}
+.go {
+  width: 15%;
+  height: 100%;
+}
+.history {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.length {
+  font-size: 0.8rem;
+  color: $grey;
+}
+.title {
+  font-size: 1rem;
+}

@@ -1,0 +1,20 @@
+@import 'theme';
+@import 'utilities';
+
+.header {
+  height: 48;
+  width: 100%;
+  border-bottom-width: 1;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+  background-color: $light;
+  flex-direction: row;
+  align-items: center;
+}
+.input {
+  background-color: rgba(211, 211, 211, 0.5);
+  margin-left: 1.5rem;
+  height: 70%;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-size: 1rem;
+}
